@@ -1,0 +1,6 @@
+29-May-2023 08:53:14 ERROR - Validator.INVALID_DETAILS
+com.infy.exception.InfyDASystemException: Validator.INVALID_DETAILS
+	at com.infy.validator.Validator.validate(Validator.java:13) ~[classes/:?]
+	at com.infy.service.InfyDASystemServiceImpl.addNewTrainee(InfyDASystemServiceImpl.java:39) [classes/:?]
+	at com.infy.ui.UserInterface.addNewTrainee(UserInterface.java:40) [classes/:?]
+	at com.infy.ui.UserInterface.main(UserInterface.java:20) [classes/:?]
